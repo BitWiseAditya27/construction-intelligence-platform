@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/venv/
+backend/env/
+ENV/
+.pytest_cache/
+*.db
+*.sqlite3
+backend/construction_intelligence.db
+backend/test_construction.db
+
+# Uploaded inspection files
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment secrets
+.env
+backend/.env
+frontend/.env
+*.local
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
