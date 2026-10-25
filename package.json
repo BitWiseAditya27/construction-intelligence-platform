@@ -1,0 +1,10 @@
+{
+  "name": "construction-intelligence-platform-root",
+  "private": true,
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "build": "npm run build --prefix frontend"
+  }
+}
